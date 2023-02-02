@@ -1,0 +1,75 @@
+* {
+    box-sizing : border-box;
+}
+
+
+.btn {
+    outline: none;
+    background-color: hsl(0, 0%, 90%);
+    cursor: pointer;
+    border-radius: .3em ;
+    padding: .5em 1em;
+    border: 1px solid hsl(0, 0%, 70%);
+
+}
+
+.btn:focus, .btn:hover {
+    background-color: hsl(0, 0%, 80%);
+    box-shadow: 0 0 5px 0 hsl(0, 0%, 70%);;
+}
+
+.btn.primary {
+    background-color: hsl(271, 70%, 50%);
+    color: #fff;
+    border-color: hsl(271, 70%, 30%);
+}
+
+.btn.primary:focus,.btn.primary:hover {
+    background-color: hsl(271, 70%, 40%);
+    box-shadow: 0 0 5px 0 hsl(271, 70%, 30%);
+}
+
+.btn.accent {
+    background-color: hsl(200, 100%, 40%);
+    color: #fff;
+    border-color: hsl(200, 100%, 20%);
+}
+
+.btn.accent:focus, .btn.accent:hover {
+    background-color: hsl(200, 100%, 30%);
+    box-shadow: 0 0 5px 0 hsl(200, 100%, 20%);
+}
+
+.btn.danger {
+    background-color: hsl(0, 60%, 50%);
+    color: #fff;
+    border-color: hsl(0, 60%, 30%);
+}
+.btn.danger:focus, .btn.danger:hover {
+    background-color: hsl(0, 60%, 40%);
+    box-shadow: 0 0 5px 0 hsl(0, 60%, 30%);
+}
+
+.btn.large {
+    font-size: 1.25rem;
+}
+
+.btn.small {
+    font-size: .75rem;
+}
+.btn.pill {
+    border-radius: 1000000px;
+}
+
+.btn.custom {
+ background: linear-gradient(to right, hsl(271, 70%, 50%), hsl(200, 100%, 40%));
+ color: #fff;
+ border-color: #222;   
+}
+
+.btn.custom:focus, .btn.custom:hover {
+    background: linear-gradient(to right, hsl(271, 70%, 40%), hsl(200, 100%, 30%));
+    border-color: black;
+    box-shadow: 0 0 5px 0 black;
+}
+
